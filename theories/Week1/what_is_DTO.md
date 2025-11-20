@@ -34,10 +34,10 @@ Because your database models often contain:
 Database model:
 
 ```csharp
-public class User (id, user, passwordHash, createdAt) {
+public class User (id, email, passwordHash, createdAt) {
 
     public Guid Id { get; set; } = id;
-    public string Email { get; set; } = user;
+    public string Email { get; set; } = email;
     public string PasswordHash { get; set; } = passwordHash;
     public DateTime CreatedAt { get; set; } = createdAt;
 
