@@ -102,4 +102,3 @@ DTOs are used to:
 | 🧹 Clean API   | Return only what the client needs                       |
 | 📦 Stability   | Backend can change internal models without breaking API |
 | 🔄 Consistency | Ensure input/output formats stay the same               |
-|----------------|---------------------------------------------------------|
