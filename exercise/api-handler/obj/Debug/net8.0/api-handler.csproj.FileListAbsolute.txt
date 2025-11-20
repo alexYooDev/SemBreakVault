@@ -1,0 +1,14 @@
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/bin/Debug/net8.0/api-handler
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/bin/Debug/net8.0/api-handler.deps.json
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/bin/Debug/net8.0/api-handler.runtimeconfig.json
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/bin/Debug/net8.0/api-handler.dll
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/bin/Debug/net8.0/api-handler.pdb
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/api-handler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/api-handler.AssemblyInfoInputs.cache
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/api-handler.AssemblyInfo.cs
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/api-handler.csproj.CoreCompileInputs.cache
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/api-handler.dll
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/refint/api-handler.dll
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/api-handler.pdb
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/api-handler.genruntimeconfig.cache
+/Users/alexyoodev/2025/sem-break/exercise/api-handler/obj/Debug/net8.0/ref/api-handler.dll
