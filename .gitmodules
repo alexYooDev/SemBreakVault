@@ -1,0 +1,3 @@
+[submodule "side-project/tally-app"]
+	path = side-project/tally-app
+	url = https://github.com/alexYooDev/Tally.git
