@@ -6,18 +6,67 @@
 import { test, expect, describe } from '@jest/globals';
 
 function add(a: number, b: number) : number {
+    if (a === 0 || b === 0) {
+        throw new Error('Cannot add by zero');
+    }
+
+    if (a < 0 || b < 0){
+        throw new Error('Cannot add by a negative number');
+    }
+
+    if (a >= Number.MAX_SAFE_INTEGER || b >= Number.MAX_SAFE_INTEGER){
+        throw new Error('Cannot add by a big number');
+    }
+
     return a + b;
 }
 
 function subtract(a: number, b: number): number {
+
+    if (a === 0 || b === 0) {
+        throw new Error('Cannot subtract by zero');
+    }
+
+    if (a < 0 || b < 0){
+        throw new Error('Cannot subtract by a negative number');
+    }
+
+    if (a >= Number.MAX_SAFE_INTEGER || b >= Number.MAX_SAFE_INTEGER){
+        throw new Error('Cannot subtract by a big number');
+    }   
+
     return a - b;
 }
 
 function multiply(a: number, b: number): number {
+    if (a === 0 || b === 0) {
+        throw new Error('Cannot multiply by zero');
+    }
+
+    if (a < 0 || b < 0){
+        throw new Error('Cannot multiply by a negative number');
+    }
+
+    if (a >= Number.MAX_SAFE_INTEGER || b >= Number.MAX_SAFE_INTEGER){
+        throw new Error('Cannot multiply by a big number');
+    }   
+
     return a * b;
 }
 
 function divide(a: number, b: number): number {
+    if (a === 0 || b === 0) {
+        throw new Error('Cannot divide by zero');
+    }
+
+    if (a < 0 || b < 0){
+        throw new Error('Cannot divide by a negative number');
+    }
+
+    if (a >= Number.MAX_SAFE_INTEGER || b >= Number.MAX_SAFE_INTEGER){
+        throw new Error('Cannot divide by a big number');
+    }   
+
     return a / b;
 }
 
@@ -81,7 +130,7 @@ describe('multiply', () => {
 
 describe('divide', () => {
     test('should divide one number by another', () => {
-       expect(divide(24, 8)).toBe(4); 
+       expect(divide(24, 8)).toBe(3); 
     });
 
     test('should throw an error when dividing by zero', () => {
