@@ -1,3 +1,6 @@
 [submodule "side-project/tally-app"]
 	path = side-project/tally-app
 	url = https://github.com/alexYooDev/Tally.git
+[submodule "AI-Use-Case-Explorer"]
+	path = AI-Use-Case-Explorer
+	url = https://github.com/alexYooDev/AI-Use-Case-Explorer.git
